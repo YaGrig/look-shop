@@ -55,9 +55,9 @@
 }
 .header2{
     box-sizing: border-box;
-    padding-top: 50px;
     padding-left: 170px;
     padding-right: 120px;
+    
     
     height: 107px;
     background-color: white;    
@@ -67,10 +67,14 @@
     display: flex;
     justify-content: space-between;
 }
+.header2 a{
+    margin: auto 0;
+}
 .navmain{
-    
+    margin: auto 0 ;
     display: flex;
     justify-content: space-between;
+    
 }
 .navbeta{
     padding-right: 27px;
@@ -79,9 +83,10 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
+    margin:auto;
 }
 .a1{
-    margin-left: 15px;
+    
     font-size: 21px;
     color: black;
 }
@@ -118,4 +123,107 @@
     color: grey;
     font-size: 13px;
     
+}
+
+
+
+/* Footer */
+.second-part-header{
+    box-sizing: border-box;
+    padding-left: 170px;
+    padding-right: 120px;
+    width: 100%;
+    height: 200px;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-between;
+}
+.first-half{
+    
+    display: flex;
+    flex-wrap: nowrap;
+}
+.headfooter{
+    box-sizing: border-box;
+    padding-top: 35px;
+    padding-right: 85px;
+    font-size: 25px;
+    line-height: 18px ;
+}
+.headfooter p{
+    font-size: 12px;
+}
+.headfooter p:first-child{
+    padding-top: 15px;
+    font-size: 12px;
+}
+.social-container{
+    box-sizing: border-box;
+    padding-top: 35px;
+    padding-right: 65px;
+    font-size: 25px;
+    line-height: 18px ;
+    width: 250px;
+}
+.social{
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+.social-img{
+    width: 50%;
+    padding-left: 10px;  
+    width: 45px;
+    height: 45px;
+}
+.social-img img{
+    box-sizing: border-box;
+    max-width: 100%;
+    
+}
+.spimg{
+    margin: auto 0;
+    float: right;
+    
+    
+}
+.third-part-header{
+    padding-top: 28px;
+    box-sizing: border-box;
+    padding-left: 170px;
+    width: 100%;
+    height: 73px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Rights{
+    padding-right: 120px;
+    float: right;
+    font-size: 10px;
+}
+.navfooter{
+    
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.a2{
+    padding-right: 10px;
+    margin-right: 10px;
+    font-size: 10px;
+    color: white;
+    border-right: 1px solid grey;
+
+}
+.a3{
+    margin-right: 10px;
+    font-size: 10px;
+    color: white;
+
+
 }
