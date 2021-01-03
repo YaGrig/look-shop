@@ -236,6 +236,7 @@
     background-color: #f7f7f7;
 }
 .Pallet{
+    box-sizing: border-box;
     padding-bottom: 52px;
     padding-top: 40px;
     padding-left: 115px;
@@ -245,16 +246,185 @@
 }
 .pallet-left{
     height: 340px;
-    width: 480px;
+    width: 50%;
 }
 .pallet-right{
     height: 340px;
-    width: 482px;
+    width: 50%;
     display: flex;
     flex-wrap: wrap;
 
 }
 
+.HeadSlide{
+    padding-left: 115px;
+    padding-right: 115px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.HeadSlide-left{
+    display: flex;
+    flex-direction: row;
+}
+.HSL-1{
+    height: 48px;
+    width: 138px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.HeadSlide-right{
+    display: flex;
+    flex-direction: row;
+}
+.arrow{
+    height: 47px;
+    width: 47px;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SlideDressesOrange{
+    height: 455px;
+    width: 100%;
+    background-color: #fd926d;
+    display: flex;
+    flex-direction: row;
+    
+}
+.dress{
+    position: relative;
+    width: 220px ;
+    height: 395px ;
+    box-sizing: border-box;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 35px;
+    background-color: white;
+}
+.dress img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.dress:first-child {
+    width: 110px;
+
+}
+.dress:last-child {
+    width: 110px;
+}
+
+.HeadSlide-right:first-child{
+    transform: rotate(180deg);
+}
+.clearance{
+    padding-top: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clearance:before{
+    content: "";
+    display: inline-block;
+    border-top:1px solid black;
+    height: 2px;
+    width: 390px;
+    padding-bottom: -5px;
+    margin-right: 15px;
+}
+.clearance:after{
+    content: "";
+    display: inline-block;
+    border-top:1px solid black;
+    height: 2px;
+    width: 390px;
+    padding-bottom: -5px;
+    margin-left: 15px;
+}
+.SlideDressesWhite{
+    padding-right: 115px;
+    padding-left: 115px;
+    height: 455px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    
+}
+.dress1{
+    position: relative;
+    width: 220px ;
+    height: 395px ;
+    box-sizing: border-box;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 30px;
+    background-color: white;
+}
+.dress1 img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.Brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Brand:before{
+    content: "";
+    display: inline-block;
+    border-top:1px solid black;
+    height: 2px;
+    width: 45%;
+    padding-bottom: -5px;
+    margin-right: 15px;
+}
+.Brand:after{
+    content: "";
+    display: inline-block;
+    border-top:1px solid black;
+    height: 2px;
+    width: 45%;
+    padding-bottom: -5px;
+    margin-left: 15px;
+}
+.Brands{
+    display:flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100px;
+    padding-right: 115px;
+    padding-left: 115px;
+    border-bottom: 1px solid #000;
+}
+.about{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    height: 160px;
+    padding-right: 115px;
+    padding-left: 115px;
+    text-align: center;
+    font-size: 14px;
+}
+.about h3{
+    padding-bottom: 20px;
+    font-size: 24px;
+}
 /* Footer */
 .first-part-header{
     box-sizing: border-box;
