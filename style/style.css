@@ -235,6 +235,25 @@
 .find-img:nth-child(even){
     background-color: #f7f7f7;
 }
+.Pallet{
+    padding-bottom: 52px;
+    padding-top: 40px;
+    padding-left: 115px;
+    padding-right: 115px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.pallet-left{
+    height: 340px;
+    width: 480px;
+}
+.pallet-right{
+    height: 340px;
+    width: 482px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
 
 /* Footer */
 .first-part-header{
