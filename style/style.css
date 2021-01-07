@@ -226,11 +226,15 @@
         height: 241px;
     }
     .slider-img{
-    object-fit: cover;
+    
     max-width: 100%;
-    /* max-height: max-content; */
     height: 440px;
     width: 100%;
+    }
+    .slider-img1{
+        width: 100%;
+        max-width: 100%;
+        display: none;
     }
     
     .dotes{
@@ -1046,6 +1050,22 @@
     .dotes{
     height: 55px;
     }
+    .slider{
+        height: 335px;  
+    }
+    .slider-img1{
+        display: flex;
+    }
+    .slider-img{
+        display: none;
+        height:335px;
+    }
+    .slider:after{
+        display: none;
+    }
+    .slider:before{
+        display: none;
+    } 
     .header11{
     padding-left: 15px;
     padding-right: 15px;
