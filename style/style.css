@@ -410,6 +410,14 @@
     justify-content: center;
     align-items: center;
     }
+    .HSL-1:nth-child(2n){
+        height: 48px;
+        width: 144px;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
     .HSL-1:hover{
         background-color: #fd926d;
         color: white;
@@ -723,7 +731,7 @@
     transform: rotate(180deg);
     }
     .clearance{
-    padding-top: 105px;
+    padding-top: 45px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -830,6 +838,7 @@
     justify-content: center;
     }
     .Brand{
+        padding-top: 15px;
         font-size: 15px;
         font-weight: bold;
     display: flex;
@@ -875,6 +884,8 @@
     border-bottom: 1px solid #000;
     }
     .about{
+    padding-top: 15px;
+    padding-bottom: 15px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
