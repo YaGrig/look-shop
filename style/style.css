@@ -730,6 +730,7 @@
     }
     
     .dress:nth-child(7n) {
+        overflow: hidden;
         margin-right: 0px;
     width: 86px;
     }
