@@ -1067,6 +1067,9 @@
     }
 
     @media screen and (max-width: 768px){
+        .header1{
+            font-size: 11px;
+        }
     .dotes{
         padding-top: 15px;
     height: 55px;
