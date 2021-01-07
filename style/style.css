@@ -375,8 +375,10 @@
     }
     .pallet-rf{
         height: 49%;
+        width: 100%;
     }
     .pallet-right-bellow{
+        width: 100%;
     display: flex;
     justify-content: space-between;
     
@@ -410,7 +412,9 @@
     justify-content: center;
     align-items: center;
     }
-    .HSL-1:nth-child(2n){
+    .HSL-1:nth-child(2){
+        background-color: #fd926d;
+        color: white;
         height: 48px;
         width: 144px;
         font-size: 15px;
@@ -440,6 +444,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    }
+    .arrow:last-child{
+        background-color: #fd926f;
+
     }
     .arrow:hover{
         color: white;
@@ -1059,6 +1067,7 @@
 
     @media screen and (max-width: 768px){
     .dotes{
+        padding-top: 15px;
     height: 55px;
     }
     .slider{
